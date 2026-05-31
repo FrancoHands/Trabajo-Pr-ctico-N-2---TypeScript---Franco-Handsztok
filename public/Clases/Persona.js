@@ -1,3 +1,4 @@
+//Creo la clase Persona y le agregamos las siguientes propiedades, cada una con su respectivo tipo de dato
 export class Persona {
     nombre;
     apellido;

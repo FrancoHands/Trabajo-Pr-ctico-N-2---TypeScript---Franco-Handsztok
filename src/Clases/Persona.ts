@@ -1,5 +1,6 @@
-import { IPersona } from "../interfaz/IPersona"
+import type { IPersona } from "../Interfaz/IPersona.js"
 
+//Creo la clase Persona y le agregamos las siguientes propiedades, cada una con su respectivo tipo de dato
 export class Persona implements IPersona {
   nombre: string;
   apellido: string;

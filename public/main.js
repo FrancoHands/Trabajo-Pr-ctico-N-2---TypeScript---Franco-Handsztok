@@ -1,6 +1,10 @@
-import { Persona } from "./Persona.js";
-import { Profesor } from "./Profesor.js";
-import { Alumno } from "./Alumno.js";
+import { Persona } from "./Clases/Persona.js";
+import { Profesor } from "./Clases/Profesor.js";
+import { Alumno } from "./Clases/Alumno.js";
+
+//En este archivo instanciamos cada uno de los ojetos (Persona, Alumno y Profesor) para mostrarlo en consola
+//con el método presentarse()
+
 const persona1 = new Persona("Franco", "Handsztok", 12345678, new Date(2000, 8, 20), true);
 persona1.Presentarse();
 const alumno1 = new Alumno("Brad", "Pitt", 87654321, new Date(1980, 11, 31), true, "Desarrollo en Full Stack", "Programación Backend");
